@@ -2,8 +2,8 @@ package ru.stepanov.publication_service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.stepanov.publication_service.model.Link;
-import ru.stepanov.publication_service.model.Publication;
+import ru.stepanov.publication_service.entity.Link;
+import ru.stepanov.publication_service.entity.Publication;
 
 import java.util.List;
 import java.util.UUID;
