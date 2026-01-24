@@ -2,8 +2,8 @@ package ru.stepanov.publication_service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.stepanov.publication_service.model.Category;
-import ru.stepanov.publication_service.model.Edition;
+import ru.stepanov.publication_service.entity.Category;
+import ru.stepanov.publication_service.entity.Edition;
 
 import java.time.LocalDate;
 import java.util.List;

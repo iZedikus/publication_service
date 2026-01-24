@@ -4,10 +4,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import ru.stepanov.publication_service.model.Author;
-import ru.stepanov.publication_service.model.Issue;
-import ru.stepanov.publication_service.model.Keyword;
-import ru.stepanov.publication_service.model.Publication;
+import ru.stepanov.publication_service.entity.Author;
+import ru.stepanov.publication_service.entity.Issue;
+import ru.stepanov.publication_service.entity.Keyword;
+import ru.stepanov.publication_service.entity.Publication;
 
 import java.util.List;
 import java.util.Optional;

@@ -2,7 +2,7 @@ package ru.stepanov.publication_service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.stepanov.publication_service.model.Keyword;
+import ru.stepanov.publication_service.entity.Keyword;
 
 import java.util.Optional;
 import java.util.UUID;

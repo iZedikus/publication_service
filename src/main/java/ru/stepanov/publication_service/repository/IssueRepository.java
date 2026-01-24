@@ -2,8 +2,8 @@ package ru.stepanov.publication_service.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.stepanov.publication_service.model.Edition;
-import ru.stepanov.publication_service.model.Issue;
+import ru.stepanov.publication_service.entity.Edition;
+import ru.stepanov.publication_service.entity.Issue;
 
 import java.util.List;
 import java.util.Optional;

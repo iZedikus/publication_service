@@ -1,4 +1,4 @@
-package ru.stepanov.publication_service.model;
+package ru.stepanov.publication_service.entity;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -14,7 +14,6 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
@@ -43,10 +42,10 @@ public class Publication {
     @Column(nullable = false)
     private String title;
 
-    @Column(columnDefinition = "TEXT")
+    @Column(nullable = false)
     private String annotation;
 
-    @Column(columnDefinition = "TEXT")
+    @Column(nullable = false)
     private String content;
 
     @Column(name = "page_number")
